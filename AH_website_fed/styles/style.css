@@ -16,7 +16,7 @@
 :root {
 	/* startje */
 	--color-text:#111;
-	--color-background:#eee;
+	--color-background:#ffffff;
 }
 
 
@@ -27,8 +27,164 @@
 /* JOUW STYLING */
 /****************/
 
-section:nth-of-type(2) img {
-	width: 40%;
-	height: 100%;
+body {
+	margin: 0;
+	background-color: white;
+	font-size: 1rem;
 }
 
+header {
+	background: #131638;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding: .5em 1.5em;
+	gap: 9em;
+}
+
+header p {
+	margin: 0;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+header p span {
+	color: #0ca4e3;
+}
+
+header details summary {
+	font-size: 1.5rem;
+	list-style: none;
+	color: white;
+}
+
+header details ul {
+	list-style: none;
+	margin: 0;
+	padding: 1em;
+	background-color: #131638;
+	position: absolute;
+	top: 1.9em;
+	right: 1.5em;
+	border: 0.5em;
+	display: none;
+}
+
+header details[open] ul {
+	display: block;
+}
+
+header details ul li {
+	margin: 0.5em 0;
+}
+
+header details ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+
+header details ul li a:hover {
+	text-decoration: underline;
+}
+
+main section:first-of-type {
+	text-align: center;
+	color: rgb(36, 24, 63);
+	padding: 5em 1.5em;
+}
+
+main section:first-of-type h1 {
+	font-size: 1.8rem;
+	margin-bottom: 1.2em;
+	font-weight: bold;
+}
+
+main section:first-of-type p {
+	font-size: 1.2rem;
+	line-height: 1.5;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+main section:first-of-type div {
+	display: flex;
+	justify-content: center;
+	max-width: 25em;
+	margin: auto;
+	border-radius: 0.3em;
+}
+
+main section:first-of-type div input {
+	flex: 1;
+	padding: 0.8em;
+	border: none;
+	font-size: 1rem;
+}
+
+main section:first-of-type div button {
+	background: #0ca4e3;
+	border: none;
+	padding: 0.8em 1em;
+	color: white;
+	font-size: 1rem;
+}
+
+main section:first-of-type ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1em;
+	padding: 0;
+}
+
+main section:first-of-type ul li a {
+	padding: 05em 1em;
+	border-radius: 1em;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	font-size: 0.9rem;
+	font-weight: bolder;
+}
+
+section:nth-of-type(2) {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+	gap: 1.5em;
+	padding: 2em 1.5em;
+}
+
+section:nth-of-type(2-3) article{
+	background: rgb(255, 255, 255);
+	padding: 1em;
+	border-radius: 0.5em;
+	text-align: center;
+}
+
+section:nth-of-type(2)  h2 {
+	font-size: 1.3rem;
+	margin: 0.5em 0;
+	color: black;
+}
+
+section:nth-of-type(2) img {
+	width: 100%;
+	height: auto;
+	border-radius: 0.6em;
+	display: block;
+	margin: 0.5em 0;
+}
+
+section:nth-of-type(2) p {
+	font-size: 1rem;
+	color: #000000;
+	margin: 0.5em 0;
+}
+
+section:nth-of-type(2) p:hover {
+	text-decoration: underline;
+}
