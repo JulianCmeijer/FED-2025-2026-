@@ -2,7 +2,7 @@
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>pompoensoep-met-zoet-pittige-tempeh</title>
  
     <link href="receptstyles.css" rel="stylesheet">
@@ -155,38 +155,42 @@
             <h2>
                 ingrediënten
             </h2>
-            <p>
-                Aantal personen
-            </p>
-            <a href="#" aria-label="Minder personen">
-                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M5 11h14v2H5z"/>
-                </svg>
-            </a>
-            <p>
-                4
-            </p>
-            <a href="#" aria-label="Meer personen">
+            <ul>
+                <li>
+                    <p>
+                        Aantal personen
+                    </p>
+                    <a href="#" aria-label="Minder personen">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M5 11h14v2H5z"/>
+                    </svg>
+                    </a>
+                    <p>
+                        4 
+                    </p>
+                 <a href="#" aria-label="Meer personen">
                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M19 11H13V5h-2v6H5v2h6v6h2v-6h6z"/>
                 </svg>
             </a>
+              </li> 
+            </ul>
             <ul>
-                <li><input type="checkbox" aria-label="1 middelgroot uit"> 1 middelgrote ui</li>
-                <li><input type="checkbox" aria-label="2 tenen knoflook"> 2 tenen knoflook</li>
-                <li><input type="checkbox" aria-label="3 eetlepels zonnenbloemolie"> 3 el zonnebloemolie</li>
-                <li><input type="checkbox" aria-label="1 theelepel milde paprpikapoeder"> 1 tl milde paprikapoeder</li>
-                <li><input type="checkbox" aria-label="anderhalve eetlepel diced chipotle pepper"> 1½ el diced chipotle pepper</li>
-                <li><input type="checkbox" aria-label="900 gram diepvries biologische pompoenstukjes"> 900 g diepvries biologische pompoenstukjes</li>
-                <li><input type="checkbox" aria-label="700 milliter water"> 700 ml water</li>
-                <li><input type="checkbox" aria-label="1 vegan bouillonblokje"> 1 vegan bouillonblokje</li>
-                <li><input type="checkbox" aria-label="360 gram tempeh sweet chili"> 360 g tempeh sweet chili</li>
-                <li><input type="checkbox" aria-label="1 bosuitje"> 1 bosuitje</li>
-                <li><input type="checkbox" aria-label="7,5 gram verse koriander"> 7,5 g verse koriander</li>
-                <li><input type="checkbox" aria-label="2 limoenen"> 2 limoenen</li>
-                <li><input type="checkbox" aria-label="240 gram naanbrood naturel"> 240 g naanbroden naturel</li>
-                <li><input type="checkbox" aria-label="100 milliter kokosmelk"> 100 ml kokosmelk</li>
-                <li><input type="checkbox" aria-label="2 eetlepels gebakken uitjes"> 2 el gebakken uitjes</li>
+                <li><input type="checkbox" checked aria-label="1 middelgroot uit"> <span>1</span> middelgrote ui</li>
+                <li><input type="checkbox" checked aria-label="2 tenen knoflook"> <span>2 tenen</span> knoflook</li>
+                <li><input type="checkbox" checked aria-label="3 eetlepels zonnenbloemolie"> <span>3 el</span> zonnebloemolie</li>
+                <li><input type="checkbox" checked aria-label="1 theelepel milde paprpikapoeder"> <span>1 tl</span> milde paprikapoeder</li>
+                <li><input type="checkbox" checked aria-label="anderhalve eetlepel diced chipotle pepper"><span> 1½ el</span> diced chipotle pepper</li>
+                <li><input type="checkbox" checked aria-label="900 gram diepvries biologische pompoenstukjes"><span> 900 g</span> diepvries biologische pompoenstukjes</li>
+                <li><input type="checkbox" checked aria-label="700 milliter water"> <span>700 ml</span> water</li>
+                <li><input type="checkbox" checked aria-label="1 vegan bouillonblokje"><span> 1</span> vegan bouillonblokje</li>
+                <li><input type="checkbox" checked aria-label="360 gram tempeh sweet chili"><span> 360 g</span> tempeh sweet chili</li>
+                <li><input type="checkbox" checked aria-label="1 bosuitje"> <span>1</span>bosuitje</li>
+                <li><input type="checkbox" checked aria-label="7,5 gram verse koriander"><span> 7,5 g</span> verse koriander</li>
+                <li><input type="checkbox" checked aria-label="2 limoenen"><span> 2</span> limoenen</li>
+                <li><input type="checkbox" checked aria-label="240 gram naanbrood naturel"> <span>240 g</span> naanbroden naturel</li>
+                <li><input type="checkbox" checked aria-label="100 milliter kokosmelk"> <span>100 ml</span> kokosmelk</li>
+                <li><input type="checkbox" checked aria-label="2 eetlepels gebakken uitjes"> <span>2 el</span> gebakken uitjes</li>
             </ul>
             <a href="#">Kies producuten</a>
             <h2>
@@ -234,13 +238,30 @@
                     </p>
                 </li>
             </ol>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 48 48" focusable="false" class="recipe-tips_icon__S0TvF">
-                <title>Stap-tip</title>
-                <path fill="#00ade6" fill-rule="evenodd" d="M24 48A24 24 0 1 0 3.3 36.15l-1.64 9.7 9.45-1.6A23.9 23.9 0 0 0 24 48" clip-rule="evenodd"></path>
-                <path fill="#fff" d="M18.25 16h-8.8c-.18 0-.3.12-.3.3v1.82c0 .18.12.3.3.3h3.04V29.7c0 .18.12.3.3.3h2.14c.18 0 .3-.12.3-.3V18.42h3.02c.18 0 .3-.12.3-.3V16.3c0-.18-.12-.3-.3-.3m3.25 2.34c.8 0 1.44-.66 1.44-1.46a1.45 1.45 0 1 0-2.9 0c0 .8.64 1.46 1.46 1.46m-1.32 2.16v9.2c0 .18.12.3.3.3h2.04c.18 0 .3-.12.3-.3v-9.2c0-.18-.12-.3-.3-.3h-2.04c-.18 0-.3.12-.3.3m10.13-.52c-1.24 0-2.24.6-2.98 1.44l-.06-.92c-.02-.18-.12-.3-.3-.3h-1.84c-.18 0-.3.12-.3.3v13c0 .18.12.3.3.3h2.04c.18 0 .3-.12.3-.3v-4.48a3.8 3.8 0 0 0 2.84 1.24c2.74 0 4.74-2.28 4.74-5.14s-2-5.14-4.74-5.14m-.32 7.88c-1.44 0-2.5-1.28-2.5-2.76s1.06-2.72 2.5-2.72c1.46 0 2.52 1.16 2.52 2.72 0 1.58-1.06 2.76-2.52 2.76M40.13 17.5c.1-1.02-.58-1.66-1.44-1.66-.84 0-1.52.64-1.42 1.66l.7 8.04c.02.2.12.28.3.28h.88c.18 0 .28-.08.3-.28zM38.7 30.26c.8 0 1.44-.64 1.44-1.46 0-.8-.64-1.44-1.44-1.44-.82 0-1.46.64-1.46 1.44 0 .82.64 1.46 1.46 1.46"></path>
-            </svg>
-
-            <p><span>Algemeen</span> Meer weten over <span>kooktechnieken?</span></p>
+            <ul>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 48 48" focusable="false" class="recipe-tips_icon__S0TvF">
+                    <title>Stap-tip</title>
+                    <path fill="#00ade6" fill-rule="evenodd" d="M24 48A24 24 0 1 0 3.3 36.15l-1.64 9.7 9.45-1.6A23.9 23.9 0 0 0 24 48" clip-rule="evenodd"></path>
+                    <path fill="#fff" d="M18.25 16h-8.8c-.18 0-.3.12-.3.3v1.82c0 .18.12.3.3.3h3.04V29.7c0 .18.12.3.3.3h2.14c.18 0 .3-.12.3-.3V18.42h3.02c.18 0 .3-.12.3-.3V16.3c0-.18-.12-.3-.3-.3m3.25 2.34c.8 0 1.44-.66 1.44-1.46a1.45 1.45 0 1 0-2.9 0c0 .8.64 1.46 1.46 1.46m-1.32 2.16v9.2c0 .18.12.3.3.3h2.04c.18 0 .3-.12.3-.3v-9.2c0-.18-.12-.3-.3-.3h-2.04c-.18 0-.3.12-.3.3m10.13-.52c-1.24 0-2.24.6-2.98 1.44l-.06-.92c-.02-.18-.12-.3-.3-.3h-1.84c-.18 0-.3.12-.3.3v13c0 .18.12.3.3.3h2.04c.18 0 .3-.12.3-.3v-4.48a3.8 3.8 0 0 0 2.84 1.24c2.74 0 4.74-2.28 4.74-5.14s-2-5.14-4.74-5.14m-.32 7.88c-1.44 0-2.5-1.28-2.5-2.76s1.06-2.72 2.5-2.72c1.46 0 2.52 1.16 2.52 2.72 0 1.58-1.06 2.76-2.52 2.76M40.13 17.5c.1-1.02-.58-1.66-1.44-1.66-.84 0-1.52.64-1.42 1.66l.7 8.04c.02.2.12.28.3.28h.88c.18 0 .28-.08.3-.28zM38.7 30.26c.8 0 1.44-.64 1.44-1.46 0-.8-.64-1.44-1.44-1.44-.82 0-1.46.64-1.46 1.44 0 .82.64 1.46 1.46 1.46"></path>
+                    </svg>
+                    <p><span>Algemeen</span> Meer weten over <span>kooktechnieken?</span></p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p>
+                        Wat vond je van dit recept?
+                    </p>
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" height="40" width="40" fill="currentColor"><path d="M18.131 4.092c.655-1.716 3.083-1.716 3.738 0L25.5 13.61l10.081.493c1.796.087 2.573 2.315 1.222 3.5l-7.68 6.742 2.822 10.808c.468 1.791-1.54 3.202-3.067 2.154L20 31.213l-8.878 6.094c-1.527 1.048-3.535-.363-3.067-2.154l2.822-10.808-7.68-6.742c-1.351-1.186-.574-3.413 1.222-3.5l10.08-.493z"></path></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" height="40" width="40" fill="currentColor"><path d="M18.131 4.092c.655-1.716 3.083-1.716 3.738 0L25.5 13.61l10.081.493c1.796.087 2.573 2.315 1.222 3.5l-7.68 6.742 2.822 10.808c.468 1.791-1.54 3.202-3.067 2.154L20 31.213l-8.878 6.094c-1.527 1.048-3.535-.363-3.067-2.154l2.822-10.808-7.68-6.742c-1.351-1.186-.574-3.413 1.222-3.5l10.08-.493z"></path></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" height="40" width="40" fill="currentColor"><path d="M18.131 4.092c.655-1.716 3.083-1.716 3.738 0L25.5 13.61l10.081.493c1.796.087 2.573 2.315 1.222 3.5l-7.68 6.742 2.822 10.808c.468 1.791-1.54 3.202-3.067 2.154L20 31.213l-8.878 6.094c-1.527 1.048-3.535-.363-3.067-2.154l2.822-10.808-7.68-6.742c-1.351-1.186-.574-3.413 1.222-3.5l10.08-.493z"></path></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" height="40" width="40" fill="currentColor"><path d="M18.131 4.092c.655-1.716 3.083-1.716 3.738 0L25.5 13.61l10.081.493c1.796.087 2.573 2.315 1.222 3.5l-7.68 6.742 2.822 10.808c.468 1.791-1.54 3.202-3.067 2.154L20 31.213l-8.878 6.094c-1.527 1.048-3.535-.363-3.067-2.154l2.822-10.808-7.68-6.742c-1.351-1.186-.574-3.413 1.222-3.5l10.08-.493z"></path></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" height="40" width="40" fill="currentColor"><path d="M18.131 4.092c.655-1.716 3.083-1.716 3.738 0L25.5 13.61l10.081.493c1.796.087 2.573 2.315 1.222 3.5l-7.68 6.742 2.822 10.808c.468 1.791-1.54 3.202-3.067 2.154L20 31.213l-8.878 6.094c-1.527 1.048-3.535-.363-3.067-2.154l2.822-10.808-7.68-6.742c-1.351-1.186-.574-3.413 1.222-3.5l10.08-.493z"></path></svg>
+                    </span>
+                </li>
+            </ul>
         </section>
         <section>
             <h2>Wat eten we vandaag?</h2>
@@ -330,7 +351,6 @@
     </svg>
     <p>5</p>
 </li>
-
                     </ul>  
                     <img src="images/full-moon.jpg" alt="Afbeelding van Pittige full moon pompoensoep">
                     </article>
@@ -341,26 +361,31 @@
             <img src="images/pompoen-soep.jpg" alt="afbeelding van pompoensoep met zoet-pittige tempeh">
             <h2>Voedingswaarden</h2>
             <p>(eenpersoonportie)</p>
-
             <ul>
-                <li>Energie 665 kcal</li>
-            </ul>
-            <ul>
-                <li>Koolhydraten 52 g</li>
-                <li>Waarvan suikers 12 g</li>
-            </ul>
-            <ul>
-                <li>Natrium 1400 mg</li>
-            </ul>
-            <ul>
-                <li>Eiwit 21 g</li>
-            </ul>
-            <ul>
-                <li>Vet 39 g</li>
-                <li>Waarvan verzadigd 9 g</li>
-            </ul>
-            <ul>
-                <li>Vezels 11 g</li>
+                <li>
+                    <P>Energie <span> 665 kcal</span></P>
+                </li>
+                <li>
+                    <p>Koolhydraten <span> 52 g</span></p>
+                </li>
+                <li>
+                    <p>Waarvan suikers <span> 12 g</span></p>
+                </li>
+                <li>
+                    <p>Natrium <span> 400 mg</span></p>
+                </li>           
+                <li>
+                    <p>Eiwit <span> 21 g</span></p>
+                </li>                    
+                <li>
+                    <p>Vet <span> 39 g</span></p>
+                </li>
+                <li>
+                    <p>Waarvan verzadigd <span> 9 g</span></p>
+                </li>                    
+                <li>
+                    <p>Vezels <span>11 g</span></p>
+                </li>
             </ul>
         </section>
     </main>

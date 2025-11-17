@@ -20,7 +20,7 @@ Julian Meijer
   #### Je startniveau:
 Blauw
   #### Je focus:
-Responsive
+surface plane
  
 </details>
 
@@ -58,39 +58,18 @@ Receptpagina
 
 </details>
 
-
-
-## Breakdownschets (week 1)
-
-<details>
-  <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
-
-  ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
-
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
-
-</details>
-
-
-
-
-
 ## Voortgang 1 (week 2)
 
 <details>
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Code HTML ging goed, paar verbetering toegepast in gesprek
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
+  -Vragen gesteld
+  -Feedback gekregen
 
 
 
@@ -114,11 +93,12 @@ Receptpagina
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Styling html 1 begonnen. Feedback gekregen + geholpen met styling
+  Highligh: Een CSS stukje werd toegepast op sectie 3 van main en footer. Ik moest MAIN ervoor zetten.
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
+  Footer styling issue 
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
@@ -147,7 +127,8 @@ Receptpagina
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  Links hebben issue's, sommige SVG hebben dubbele labels waardoor er errors komen. 
+  -Dubbele SVG labels gefixt en links issue's ook als t goed is.
 
 </details>
 
@@ -161,11 +142,13 @@ Receptpagina
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Hulp met grid. Kreeg getekende voorbeeld mee met hoe alles verdeelt moest worden. 
+  Toegepast en gelukt met veel problemen. 
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
+  Hulp met Grid.
+  Hulp met orderen van afbeeldingen boveaan krijgen terwijl die onderaan in code staat.
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
@@ -193,20 +176,21 @@ Receptpagina
 <details>
   <summary>uitwerken voor eindgesprek</summary>
 
-  ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  ### Je uitkomst - karakteristiek screenshots: 
+
+  ???
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Ik heb vooral geleerd beter met flexbox te werken. Grid is nog wel een issue, maar langzaam lukt mij dat. 
+  Verder is :Root nu duidelijk geworden en weet ik hoe ik afbeelding via css behandel.
+  Ook weet ik hoe ik SVG van websites vandaan haal.
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Het is niet gelukt om in de footer de grijze lijs van bepaald punt van de pagina te laten lopen. het was of hoe groot het woord was of heel de breedte van de pagina.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="images/issue.png" width="375px" alt="bummer">
 </details>
 
 
@@ -218,9 +202,7 @@ Receptpagina
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
 
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
-  Nb. ChatGpT en andere AI horen er ook bij.
-  Nb. Vermeld de bronnen ook in je code.
+  Wanneer chatgpt code gekopieerd is staat dat in de code. 
 
   1. bron 1
   2. bron 2
